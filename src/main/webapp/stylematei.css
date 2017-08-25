@@ -1,0 +1,43 @@
+body {
+    background-color: #292999;
+    color: #ffffff;
+}
+h1 {
+    color: #292999;
+    text-align: center;
+    background-color: #eae800;
+    padding: 10px;
+    border: 1px solid #bdbbb6;
+    border-radius: 4px;
+}
+h2 {
+    color: #eae800;
+    border-bottom: 1px dotted white;
+    padding: 5px;
+}
+#planificare {
+    background-color: #3b92ca;
+}
+img {
+    border-radius: 4px;
+}
+a {
+    color: white;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid #eae800;
+    padding: 5px;
+}
+td {
+    border: 1px solid #eae800;
+    padding: 4px;
+}
+#sugestie {
+    margin-top: 4px;
+}
+.preferata {
+    color: #eae800;
+}

@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Never forget</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+<h1>Never forget</h1>
+<p style="text-align: right">
+	<span class="over" onclick="SuntBaiat()">Baiat</span> | <span class="over" onclick="SuntFata()">Fata</span>
+
+</p>
+<h2 style="color: red" id="planififcare">Cauta si gaseste</h2>
+
+<input type="text" placeholder="Cautare">
+<button>Cautare</button>
+
+<table border="1">
+	<thead>
+	<tr>
+		 <th onclick="sorteazaNume(this)">Obiect &dArr;</th>
+		<th>Locatie</th>
+		<th>Actiuni</th>
+	</tr>
+	</thead>
+	<tbody id="obiect">
+
+	</tbody>
+
+
+</table>
+<form action="neverforget">
+	<input type="hidden" name="action" value="add">
+	<input type="text" name="obiect" placeholder="propune un obiect nou">
+	<input type="text"name="locatie" placeholder="locatie">
+	<button>Adauga</button>
+</form>
+
+
+<script src="jquery-2.1.3.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+h2 {
+    color: black;
+    background-color: black;
+    padding: 4px;
+    border-bottom: 4px dotted red;
+    background: black;
+    border-radius: 100px;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    border: 4px solid red;
+    border-radius: 150px;
+}
+.over {
+    cursor: pointer;
+}
+
+#planififcare {
+    background-color: black
+}
+
+table {
+
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.preferata {
+    color: crimson;
+
+}
+
+
