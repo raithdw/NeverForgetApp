@@ -102,7 +102,7 @@ public class DemoDB {
 
     }
 
-    public static List<Neverforget> demoRead(String order) throws ClassNotFoundException, SQLException {
+    public static List<Neverforget> demoRead(String order, String search) throws ClassNotFoundException, SQLException {
         // 1. load driver, no longer needed in new versions of JDBC
         Class.forName("org.postgresql.Driver");
 
@@ -117,10 +117,13 @@ public class DemoDB {
         Statement st = conn.createStatement();
 
         String query="";
+        if(search == null) {
+            search = "";
+        }
         if (order != null && order.equals("desc")) {
-            query = "SELECT * FROM neverforget order by obiect desc";
+            query = "SELECT * FROM neverforget WHERE obiect like '%" + search + "%' ORDER BY obiect desc";
         } else {
-            query = "SELECT * FROM neverforget order by obiect asc";
+            query = "SELECT * FROM neverforget WHERE obiect like '%" + search + "%' ORDER BY obiect asc";
         }
 
         System.out.println(query);

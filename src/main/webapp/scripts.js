@@ -10,12 +10,13 @@ function afisare (lista) {
     });
     $("#obiect").html(randuri);
 }
-function cereLista(ordinea) {
+function cereLista(ordinea, cautaText) {
     $.ajax("neverforget?action=list", {
         cache: false,
         dataType: "json",
         data: {
-            order: ordinea
+            order: ordinea,
+            search: cautaText
         }
     }).done(function (lista) {
         console.info("a venit lista ", lista);
@@ -50,5 +51,7 @@ function SuntBaiat(){
     body.style.backgroundColor="lightblue";
 }
 
-
-
+function cauta(cautaText) {
+    console.info("cauta ", cautaText);
+    cereLista(sortareaAnterioara, cautaText);
+}

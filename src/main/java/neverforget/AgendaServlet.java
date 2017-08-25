@@ -60,10 +60,12 @@ public class AgendaServlet extends HttpServlet {
         System.out.println("list action");
         HttpSession session = request.getSession(true);
         String order = request.getParameter("order");
+        String search = request.getParameter("search");
+
         List ListaDeObiecte= new ArrayList<Neverforget>();
 
         try {
-            ListaDeObiecte=DemoDB.demoRead(order);
+            ListaDeObiecte=DemoDB.demoRead(order, search);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
