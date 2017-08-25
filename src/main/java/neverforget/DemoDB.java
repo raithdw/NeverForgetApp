@@ -12,9 +12,9 @@ import java.util.List;
 public class DemoDB {
 
     // 2. define connection params to db
-    final static String URL = "jdbc:postgresql://localhost:5432/Lectii";
-    final static String USERNAME = "postgres";
-    final static String PASSWORD = "password1";
+    final static String URL = "jdbc:postgresql://54.93.65.5:5432/5IonelD";
+    final static String USERNAME = "fasttrackit_dev";
+    final static String PASSWORD = "fasttrackit_dev";
 
 
     public static void main(String[] args) {
