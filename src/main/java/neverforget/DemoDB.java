@@ -18,26 +18,8 @@ public class DemoDB {
 
 
     public static void main(String[] args) {
-//        System.out.println("Hello database users! We are going to call DB from Java");
-//        try {
-//            //demo CRUD operations
-//             demoCreate();
-//
-//             demoUpdate();
-//            demoDelete();
-//            demoRead();
-//
-//            // demoBlobInsert();
-//            // demoBlobRead();
-//
-//
-//
-//        } catch (ClassNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//
+
+        // nothing here
     }
 
     public static void demoCreate(String obiect, String locatie) throws ClassNotFoundException, SQLException {
