@@ -12,7 +12,7 @@ import java.util.List;
 public class DemoDB {
 
     // 2. define connection params to db
-    final static String URL = "jdbc:postgresql://54.93.65.5:5432/ionel7";
+    final static String URL = "jdbc:postgresql://54.93.65.5:5432/mihai7";
     final static String USERNAME = "fasttrackit_dev";
     final static String PASSWORD = "fasttrackit_dev";
 

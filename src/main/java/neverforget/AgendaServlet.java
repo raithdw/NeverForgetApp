@@ -5,6 +5,7 @@ package neverforget;
 import org.json.JSONObject;
 
 
+import javax.jws.WebService;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,16 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by condor on April 04, 2015
- * FastTrackIT, 2015
- */
 
-
-/* didactic purposes
-Some items are intentionally not optimized or not coded in the right way
-FastTrackIT 2015
-*/
 
 @WebServlet("/neverforget")
 public class AgendaServlet extends HttpServlet {
